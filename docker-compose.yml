@@ -1,0 +1,8 @@
+version: "3.0"
+
+services:
+  server:
+    image: go-test-server
+    container_name: go-test-server
+    ports:
+      - 1234:1234
